@@ -1,0 +1,3 @@
+Dear User,
+Your code to restore password is {{code}}
+Please go to following link to reset https://{{host}}?reset-password=true&email={{email}}&code={{code}}

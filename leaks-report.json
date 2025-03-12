@@ -1,0 +1,22 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 22,
+  "EndLine": 24,
+  "StartColumn": 2,
+  "EndColumn": 17,
+  "Match": "MAIL_PASSWORD=\n\nPRIVATE_JWT_KEY=",
+  "Secret": "PRIVATE_JWT_KEY=",
+  "File": ".env.example",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.625,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [],
+  "Fingerprint": ".env.example:generic-api-key:22"
+ }
+]

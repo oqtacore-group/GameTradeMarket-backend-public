@@ -1,0 +1,18 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "assets": [
+      { "include": "mail/templates/**/*.html", "watchAssets": true },
+      { "include": "mail/templates/**/*.txt", "watchAssets": true }
+    ],
+    "plugins": [
+      {
+        "name": "@nestjs/graphql",
+        "options": {
+          "introspectComments": true
+        }
+      }
+    ]
+  }
+}

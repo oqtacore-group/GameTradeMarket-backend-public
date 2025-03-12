@@ -1,0 +1,17 @@
+import { Field, InputType } from '@nestjs/graphql';
+import { IsDateString, IsEmail } from 'class-validator';
+
+@InputType()
+export class ListingsInput {
+  @IsEmail()
+  @Field(() => String)
+  readonly email: string;
+
+  @IsDateString()
+  @Field(() => String)
+  readonly created_from: string;
+
+  @IsDateString()
+  @Field(() => String)
+  readonly created_till: string;
+}

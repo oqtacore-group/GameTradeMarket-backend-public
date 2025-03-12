@@ -1,0 +1,5 @@
+Dear User
+Welcome to Game Trade Market
+To use your account you should verify first
+Please enter the code {{code}} on verification form
+Or follow the link to verify  https://{{host}}?verify=true&email={{email}}&code={{code}}
